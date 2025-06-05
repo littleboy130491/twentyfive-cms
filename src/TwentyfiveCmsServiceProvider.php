@@ -2,9 +2,9 @@
 
 namespace Littleboy130491\TwentyfiveCms;
 
+use Littleboy130491\TwentyfiveCms\Commands\TwentyfiveCmsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Littleboy130491\TwentyfiveCms\Commands\TwentyfiveCmsCommand;
 
 class TwentyfiveCmsServiceProvider extends PackageServiceProvider
 {
