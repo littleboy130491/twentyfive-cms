@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "henry/twentyfive-cms",
+    "description": "This is my package twentyfive-cms",
     "keywords": [
-        ":vendor_name",
+        "Henry",
         "laravel",
-        ":package_slug"
+        "twentyfive-cms"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/henry/twentyfive-cms",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Henry",
+            "email": "arisman.henry@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Littleboy130491\\TwentyfiveCms\\": "src/",
+            "Littleboy130491\\TwentyfiveCms\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Littleboy130491\\TwentyfiveCms\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Littleboy130491\\TwentyfiveCms\\TwentyfiveCmsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "TwentyfiveCms": "Littleboy130491\\TwentyfiveCms\\Facades\\TwentyfiveCms"
             }
         }
     },
